@@ -12,7 +12,7 @@ int count_letters(string str) {
     cout << "Number of letters: " << count << endl;
     return count;
 }
-
+ 
 int count_words(string str) {
     int count = 0;
     bool inWord = false;

@@ -16,7 +16,7 @@ int count_letters(string str) {
 int count_words(string str) {
     int count = 0;
     bool inWord = false;
-
+     
     for (char c : str) {
         if (c == ' ') {
             inWord = false;
